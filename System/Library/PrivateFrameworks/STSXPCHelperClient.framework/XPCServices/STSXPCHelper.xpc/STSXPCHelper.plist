@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.bluetooth.internal</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.idcredentials.presentment</key>
+	<array>
+		<string>identity</string>
+		<string>ua</string>
+	</array>
+	<key>com.apple.private.corewifi</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.wifip2pd</string>
+		<string>com.apple.private.corewifi-xpc</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.servier</key>
+	<true/>
+	<key>com.apple.sts.xpcclientnotification.listener</key>
+	<true/>
+	<key>com.apple.wifip2pd</key>
+	<true/>
+</dict>
+</plist>

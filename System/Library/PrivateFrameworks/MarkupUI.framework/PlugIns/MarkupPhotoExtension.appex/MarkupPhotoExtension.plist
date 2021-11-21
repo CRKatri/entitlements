@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.auto-elect-plugin</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>com.apple.PreviewLegacySignaturesConversion</string>
+	</array>
+	<key>com.apple.security.exception.managed-preference.read-only</key>
+	<array>
+		<string>com.apple.mobilenotes</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.mobilenotes</string>
+	</array>
+	<key>com.apple.system.diagnostics.iokit-properties</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.Markup</string>
+		<string>com.apple.AnnotationKit</string>
+	</array>
+</dict>
+</plist>

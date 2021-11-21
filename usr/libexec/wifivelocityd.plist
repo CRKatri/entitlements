@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CompanionLink</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.corecapture.manager-access</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.profile-list-read</key>
+	<true/>
+	<key>com.apple.private.corewifi.bssid</key>
+	<true/>
+	<key>com.apple.private.corewifi.countrycode</key>
+	<true/>
+	<key>com.apple.private.corewifi.internal</key>
+	<true/>
+	<key>com.apple.private.logging.admin</key>
+	<true/>
+	<key>com.apple.private.sysdiagnose</key>
+	<true/>
+	<key>com.apple.private.wifianalytics</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>IO80211APIUserClient</string>
+	</array>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+	<key>com.apple.wlan.authentication</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>wifianalyticsd</string>
+	</array>
+</dict>
+</plist>

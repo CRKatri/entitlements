@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>AAPLPHOTOS.com.apple.Photos.CPLDiagnose</string>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+	</array>
+	<key>com.apple.private.cloudphotod.access</key>
+	<string>management</string>
+	<key>com.apple.private.photoanalysisd.access</key>
+	<true/>
+	<key>com.apple.private.photos.service.librarymanagement</key>
+	<true/>
+	<key>com.apple.private.photos.service.sbextensions</key>
+	<true/>
+	<key>com.apple.private.security.storage.Photos</key>
+	<true/>
+	<key>com.apple.private.security.storage.PhotosLibraries</key>
+	<true/>
+	<key>com.apple.private.sysdiagnose</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceSystemPolicyRemovableVolumes</string>
+		<string>kTCCServiceSystemPolicyNetworkVolumes</string>
+	</array>
+	<key>com.apple.private.xpc.role-account</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.PowerManagement.control</string>
+		<string>com.apple.accountsd.accountmanager</string>
+	</array>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.accountsd.accountmanager</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>CPLDiagnose</string>
+	</array>
+</dict>
+</plist>

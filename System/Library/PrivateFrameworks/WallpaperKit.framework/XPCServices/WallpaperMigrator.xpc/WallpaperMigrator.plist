@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.WallpaperKit.WallpaperMigrator</string>
+	<key>com.apple.photos.bourgeoisie</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+	<true/>
+	<key>com.apple.private.photos.allowassetexpunge</key>
+	<true/>
+	<key>com.apple.private.security.storage.AppDataContainers</key>
+	<true/>
+	<key>com.apple.private.security.storage.PhotosLibraries</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServicePhotosAdd</string>
+	</array>
+	<key>com.apple.runningboard.assertions.photos</key>
+	<true/>
+	<key>com.apple.runningboard.assertions.wallpaperkit</key>
+	<true/>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.WallpaperKit</string>
+		<string>com.apple.springboard</string>
+	</array>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>IOMobileFramebufferUserClient</string>
+	</array>
+	<key>com.apple.security.system-container</key>
+	<true/>
+	<key>com.apple.springboard.wallpaper-access</key>
+	<true/>
+</dict>
+</plist>

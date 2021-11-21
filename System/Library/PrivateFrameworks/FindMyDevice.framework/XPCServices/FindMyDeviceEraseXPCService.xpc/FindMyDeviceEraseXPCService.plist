@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allow-obliterate-device</key>
+	<true/>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>preferences-reset</string>
+	</array>
+	<key>com.apple.nfcd.hwmanager</key>
+	<true/>
+	<key>com.apple.nfcd.seshat</key>
+	<true/>
+	<key>com.apple.payment.all-access</key>
+	<true/>
+	<key>com.apple.private.bmk.allow</key>
+	<true/>
+</dict>
+</plist>

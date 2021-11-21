@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.DPSubmissionService</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.DPSubmissionService</string>
+	<key>com.apple.developer.exposure-notification</key>
+	<true/>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.private.exposure-notification</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-device-identity</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-differential-privacy</key>
+	<true/>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.ts.cloudkit-client</key>
+	<true/>
+	<key>iCloudServices</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>DPSubmissionService</string>
+	</array>
+</dict>
+</plist>

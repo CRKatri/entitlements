@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.FamilyControls.FamilyControlsOverrideSettingsExtension</string>
+	<key>com.apple.developer.team-identifier</key>
+	<string>Apple</string>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.FamilyControlsAgent</string>
+		<string>com.apple.FamilyControlsAgent.private</string>
+		<string>com.apple.ManagedSettingsAgent</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.mscamerad-xpc</string>
+	<key>CFBundleName</key>
+	<string>Handles mass storage camera framework level import access</string>
+	<key>com.apple.SystemConfiguration.SCPreferences-write-access</key>
+	<array>
+		<string>com.apple.AutoWake.xml</string>
+	</array>
+	<key>com.apple.fileprovider.enumerate</key>
+	<true/>
+	<key>com.apple.private.allow-external-storage</key>
+	<true/>
+	<key>com.apple.private.xpc.domain-extension</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_RawCamera_Camera/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array/>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/LiveFiles/com.apple.filesystems.userfsd/</string>
+		<string>/Library/com.apple.imagecapture/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.PowerManagement.control</string>
+		<string>com.apple.coremedia.sandboxserver.xpc</string>
+		<string>com.apple.coremedia.customurlloader.xpc</string>
+		<string>com.apple.coremedia.assetimagegenerator.xpc</string>
+		<string>com.apple.coremedia.asset.xpc</string>
+		<string>com.apple.coremedia.decompressionsession</string>
+		<string>com.apple.mobileassetd.v2</string>
+		<string>com.apple.SBUserNotification</string>
+		<string>com.apple.accountsd.accountmanager</string>
+		<string>com.apple.symptom_diagnostics</string>
+		<string>com.apple.FileProvider</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.ImageCaptureFramework</string>
+		<string>com.apple.coremedia</string>
+		<string>com.apple.networkd.plist</string>
+	</array>
+	<key>com.apple.security.ts.render-images</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

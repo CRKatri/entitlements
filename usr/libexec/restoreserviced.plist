@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.USBCEntitlement</key>
+	<true/>
+	<key>com.apple.aop.rose.controller.admin</key>
+	<true/>
+	<key>com.apple.camera.iokit-user-access</key>
+	<true/>
+	<key>com.apple.driver.I2C.device.user-access</key>
+	<true/>
+	<key>com.apple.nearbyd.diagnostics</key>
+	<true/>
+	<key>com.apple.nfcd.hwmanager</key>
+	<true/>
+	<key>com.apple.private.applesepmanager.allow</key>
+	<true/>
+	<key>com.apple.private.gasgauge-update</key>
+	<true/>
+	<key>com.apple.private.ioavfamily.user-access-displaymemory</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AppleGasGaugeUpdateUserClient</string>
+		<string>AppleH10CamInUserClient</string>
+		<string>AppleH13CamInUserClient</string>
+		<string>AppleSEPUserClient</string>
+		<string>AppleMobileApNonceUserClient</string>
+		<string>IOAVDisplayMemoryConcreteUserClient</string>
+		<string>AppleHPMUserClient</string>
+		<string>AppleARMIICUserClient</string>
+		<string>AppleHPMUserClient</string>
+		<string>IOThunderboltFamilyUserClient</string>
+	</array>
+</dict>
+</plist>

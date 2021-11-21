@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.debug_port</key>
+	<true/>
+	<key>com.apple.private.logging.admin</key>
+	<true/>
+	<key>com.apple.private.logging.diagnostic</key>
+	<true/>
+	<key>com.apple.private.logging.stream</key>
+	<true/>
+	<key>com.apple.private.security.storage.Wireless</key>
+	<true/>
+	<key>com.apple.private.sysdiagnose</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/wireless/Library/</string>
+		<string>/private/var/db/diagnostics/</string>
+		<string>/private/var/db/uuidtext/</string>
+		<string>/private/var/logs/system_logs.logarchive</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/wireless/Library/Logs/</string>
+		<string>/private/var/mobile/Library/Logs/CrashReporter/Baseband/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.sysdiagnose.service.xpc</string>
+		<string>com.apple.SBUserNotification</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.AppleBasebandManager</string>
+	</array>
+	<key>com.apple.security.exception.sysctl.read-only</key>
+	<array>
+		<string>kern.proc.all.0</string>
+		<string>net.routetable.0.0.3.0</string>
+	</array>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.CommCenterRootHelper</string>
+	<key>com.apple.tailspin.dump-output</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

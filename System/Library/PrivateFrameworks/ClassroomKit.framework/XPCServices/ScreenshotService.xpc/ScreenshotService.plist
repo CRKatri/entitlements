@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.ClassroomKit.ScreenshotService</string>
+	<key>com.apple.QuartzCore.global-capture</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+	<true/>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/WebClips/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.backboard.hid.services</string>
+		<string>com.apple.iconservices</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>ScreenshotService</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+		<string>cellular-plan</string>
+		<string>public-cellular-plan</string>
+	</array>
+	<key>com.apple.corespeech.xpc</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.MobileAccessoryUpdate.*</string>
+	</array>
+	<key>com.apple.private.assets.change-daemon-config</key>
+	<true/>
+	<key>com.apple.private.externalaccessory.showallaccessories</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/tmp/aud/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.accessories.externalaccessory-server</string>
+		<string>com.apple.iaptransportd.ExternalAccessory.distributednotification.server</string>
+		<string>com.apple.ExternalAccessory.distributednotification.server</string>
+		<string>com.apple.iap2d.ExternalAccessory.distributednotification.server</string>
+		<string>com.apple.accessories.transport-server</string>
+		<string>com.apple.iap2d.xpc</string>
+		<string>com.apple.iapd.xpc</string>
+		<string>com.apple.corespeech.corespeechservices</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.MobileAccessoryUpdater.EAUpdaterService</string>
+		<string>com.apple.MobileAccessoryUpdater</string>
+		<string>com.apple.AUDeveloperSettings</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.ts.asset-access</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.MobileAccessoryUpdater</string>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

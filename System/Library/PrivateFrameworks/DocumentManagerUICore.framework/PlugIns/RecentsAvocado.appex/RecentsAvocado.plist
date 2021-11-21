@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.DocumentManagerUICore.RecentsAvocado</string>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.CloudDocs</string>
+	</array>
+	<key>com.apple.fileprovider.acl-read</key>
+	<true/>
+	<key>com.apple.fileprovider.acl-write</key>
+	<true/>
+	<key>com.apple.fileprovider.enumerate</key>
+	<true/>
+	<key>com.apple.fileprovider.fetch-url</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.sharing-access-check-messages</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.lookup</key>
+	<dict>
+		<key>appData</key>
+		<true/>
+	</dict>
+	<key>com.apple.private.clouddocs.can-grant-access-to-document</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.corespotlight.bundleid</key>
+	<string>com.apple.DocumentManagerUICore.RecentsAvocado</string>
+	<key>com.apple.private.corespotlight.search.internal</key>
+	<true/>
+	<key>com.apple.private.librarian.unrestricted-container-access</key>
+	<true/>
+	<key>com.apple.private.pluginkit.persona</key>
+	<string>system</string>
+	<key>com.apple.private.trust-ubiquity-kvstore-identifier</key>
+	<true/>
+	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+	<array>
+		<string>com.apple.finder</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.DocumentManager</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/Application Support/CloudDocs/session/containers/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.lsd.xpc</string>
+		<string>com.apple.searchd</string>
+		<string>com.apple.spotlight.userfs</string>
+		<string>com.apple.FileProvider</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.DocumentManager.defaults</string>
+		<string>com.apple.UIKit</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>com.apple.springboard.temporary.files-widget-transparency</key>
+	<true/>
+</dict>
+</plist>

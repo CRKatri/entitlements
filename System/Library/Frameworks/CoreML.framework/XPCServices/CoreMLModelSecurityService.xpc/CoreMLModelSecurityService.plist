@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.CoreMLModelSecurityService</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.CoreMLModelSecurityService</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string></string>
+	</array>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.appleneuralengine</string>
+		<string>com.apple.coreml.modelkeystore</string>
+		<string>com.apple.fairplayd.versioned</string>
+		<string>com.apple.developer.icloud-services</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+		<string>CKException</string>
+	</array>
+	<key>com.apple.private.coreml.decrypt_allowed</key>
+	<true/>
+	<key>com.apple.private.fpsd.client</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.appleneuralengine</string>
+		<string>com.apple.fairplayd.versioned</string>
+	</array>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AGXCommandQueue</string>
+		<string>AGXDevice</string>
+		<string>AGXDeviceUserClient</string>
+		<string>AGXSharedUserClient</string>
+		<string>H11ANEInDirectPathClient</string>
+		<string>IOAccelContext</string>
+		<string>IOAccelContext2</string>
+		<string>IOAccelDevice</string>
+		<string>IOAccelDevice2</string>
+		<string>IOAccelSharedUserClient</string>
+		<string>IOAccelSharedUserClient2</string>
+		<string>IOAccelSubmitter2</string>
+		<string>IOSurfaceRootUserClient</string>
+	</array>
+	<key>fairplay-client</key>
+	<string>703697</string>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

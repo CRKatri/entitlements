@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.icloud.FindMyDevice.FindMyDeviceBTDiscoveryXPCService</string>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.icloud.findmydevice.managed</string>
+	</array>
+	<key>com.apple.sharing.BluetoothUserInteraction</key>
+	<true/>
+	<key>com.apple.sharing.Client</key>
+	<true/>
+	<key>com.apple.sharing.DeviceDiscovery</key>
+	<true/>
+	<key>com.apple.sharing.Services</key>
+	<array>
+		<string>com.apple.sharing.AirPlay</string>
+		<string>com.apple.sharing.ApplePay</string>
+		<string>com.apple.sharing.AutoUnlock</string>
+		<string>com.apple.sharing.Control</string>
+		<string>com.apple.sharing.RemoteApp</string>
+		<string>com.apple.sharing.Setup</string>
+	</array>
+	<key>com.apple.sharing.Session</key>
+	<true/>
+</dict>
+</plist>

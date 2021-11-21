@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.authorization.extract-password</key>
+	<true/>
+	<key>com.apple.diskimages.creator-uc</key>
+	<true/>
+	<key>com.apple.private.vfs.role-account-openfrom</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>DIDeviceCreatorUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.SBUserNotification</string>
+		<string>com.apple.diskimagesiod.xpc</string>
+		<string>com.apple.diskimagesiod.ram.xpc</string>
+		<string>com.apple.securityd</string>
+	</array>
+	<key>com.apple.security.exception.sysctl.read-only</key>
+	<array>
+		<string>hw.logicalcpu</string>
+		<string>debug.didevice_queue_depth</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.DiskImagesKeychainGroup</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

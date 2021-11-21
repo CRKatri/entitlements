@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.SafariServices.PasswordPicker.setRemoteAppProperties</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.SharingServices</string>
+	</array>
+	<key>com.apple.sharing.Diagnostics</key>
+	<true/>
+	<key>com.apple.sharing.RemoteInteractionSession</key>
+	<true/>
+	<key>com.apple.sharing.Session</key>
+	<true/>
+	<key>com.apple.usernotifications.legacy-extension</key>
+	<true/>
+</dict>
+</plist>

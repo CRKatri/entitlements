@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.catutil</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.catutil</string>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.MorphunData</string>
+		<string>com.apple.MobileAsset.TempMorphunData</string>
+	</array>
+	<key>com.apple.private.siri-morphunassetsupdaterd</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.siri.morphunassetsupdaterd</string>
+	</array>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>755</string>
+		<string>910</string>
+	</array>
+</dict>
+</plist>

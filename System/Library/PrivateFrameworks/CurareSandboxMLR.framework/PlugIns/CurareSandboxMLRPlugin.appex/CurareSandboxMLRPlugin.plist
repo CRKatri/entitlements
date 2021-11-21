@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.CurareSandboxMLR.CurareSandboxMLRPlugin</string>
+	<key>com.apple.assistant.cdm.client</key>
+	<true/>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.intents.extension.discovery</key>
+	<true/>
+	<key>com.apple.private.biome.read-only</key>
+	<array>
+		<string>AppIntent</string>
+		<string>AppLaunch</string>
+	</array>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.proactive.eventtracker</key>
+	<true/>
+	<key>com.apple.runningboard.launchprocess</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/var/mobile/Library/Trial/Treatments/753/</string>
+		<string>/var/mobile/Library/Trial/Treatments/409/</string>
+		<string>/var/mobile/Library/Trial/</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/Logs/com.apple.FeatureStore/</string>
+		<string>/private/var/mobile/Library/Logs/com.apple.CurareSandboxMLR.CurareSandboxMLRPlugin/</string>
+		<string>/private/var/mobile/Library/Logs/com.apple.FeatureStore/biomeStream/</string>
+		<string>/private/var/tmp/com.apple.siri.vocabulary/</string>
+		<string>/private/var/tmp/com.apple.CurareSandboxMLR.CurareSandboxMLRPlugin/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.assistant.cdm</string>
+		<string>com.apple.siri.analytics.assistant</string>
+		<string>com.apple.biome.PublicStreamAccessService</string>
+	</array>
+	<key>com.apple.security.exception.process-info</key>
+	<true/>
+	<key>com.apple.siri.client_lite</key>
+	<true/>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>753</string>
+		<string>409</string>
+		<string>810</string>
+	</array>
+	<key>get-task-allow</key>
+	<false/>
+</dict>
+</plist>

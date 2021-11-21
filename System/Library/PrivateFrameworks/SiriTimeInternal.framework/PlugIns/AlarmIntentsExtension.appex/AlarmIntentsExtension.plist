@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.siri.SiriTimeInternal</string>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.healthlite.spi.sleepTracker</key>
+	<true/>
+	<key>com.apple.private.coordination.alarms</key>
+	<true/>
+	<key>com.apple.private.coordination.timers</key>
+	<true/>
+	<key>com.apple.private.healthkit</key>
+	<true/>
+	<key>com.apple.private.healthkit.authorization_bypass</key>
+	<true/>
+	<key>com.apple.private.healthkit.feature-availability.read-write</key>
+	<array>
+		<string>SleepCoaching</string>
+	</array>
+	<key>com.apple.private.homehubd</key>
+	<array>
+		<string>endpoint-read</string>
+	</array>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>WaitForSystemAppMigrationToComplete</string>
+	</array>
+	<key>com.apple.private.mobiletimerd</key>
+	<true/>
+	<key>com.apple.private.sleepd</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.homehubd.manage</string>
+		<string>com.apple.coordination.alarms</string>
+		<string>com.apple.coordination.timers</string>
+		<string>com.apple.MobileTimer.alarmserver</string>
+		<string>com.apple.MobileTimer.timerserver</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.private.NanoTimer</string>
+	</array>
+</dict>
+</plist>

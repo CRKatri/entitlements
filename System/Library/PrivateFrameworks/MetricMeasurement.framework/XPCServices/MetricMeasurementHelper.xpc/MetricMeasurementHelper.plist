@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.PerformanceTrace.OverrideTimeout</key>
+	<true/>
+	<key>com.apple.PerformanceTrace.SkipNotification</key>
+	<true/>
+	<key>com.apple.PerformanceTrace.Tracing</key>
+	<true/>
+	<key>com.apple.private.logging.admin</key>
+	<true/>
+	<key>com.apple.private.logging.diagnostic</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.sysmond</string>
+	</array>
+	<key>com.apple.sysmond.client</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>MetricMeasurementHelper</string>
+	</array>
+</dict>
+</plist>

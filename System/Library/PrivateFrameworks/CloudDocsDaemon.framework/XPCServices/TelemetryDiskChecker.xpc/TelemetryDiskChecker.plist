@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.CloudDocs.telemetry-disk-checker</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.CloudDocs.telemetry-disk-checker</string>
+	<key>com.apple.private.MobileContainerManager.lookup</key>
+	<dict>
+		<key>daemon</key>
+		<array>
+			<string>com.apple.bird</string>
+		</array>
+	</dict>
+	<key>com.apple.private.security.storage.AppDataContainers</key>
+	<true/>
+	<key>com.apple.private.security.storage.MobileDocuments</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.enterprise-volume-access</key>
+	<true/>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/Mobile Documents/</string>
+		<string>/Library/Application Support/CloudDocs/iCloudDriveSyncConsistency/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/Application Support/CloudDocs/session/telemetry-db/</string>
+	</array>
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-only</key>
+	<array>
+		<string>/Library/Mobile Documents/</string>
+		<string>/Documents/</string>
+		<string>/Desktop/</string>
+		<string>/Library/Application Support/CloudDocs/iCloudDriveSyncConsistency/</string>
+	</array>
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/Application Support/CloudDocs/session/telemetry-db/</string>
+	</array>
+</dict>
+</plist>

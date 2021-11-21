@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.coretelephony.Identity.get</key>
+	<true/>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+	<key>com.apple.private.apfs.allocate_contig</key>
+	<true/>
+	<key>com.apple.private.apfs.create-sealed-snapshot</key>
+	<true/>
+	<key>com.apple.private.apfs.revert-to-snapshot</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.MobileSoftwareUpdate.MacUpdateBrain</string>
+		<string>com.apple.MobileAsset.MobileSoftwareUpdate.UpdateBrain</string>
+	</array>
+	<key>com.apple.private.assets.change-daemon-config</key>
+	<true/>
+	<key>com.apple.private.iokit.system-nvram-allow</key>
+	<true/>
+	<key>com.apple.private.lockdown.finegrained-remove</key>
+	<array>
+		<string>NULL/TicketLock</string>
+	</array>
+	<key>com.apple.private.security.bootpolicy</key>
+	<true/>
+	<key>com.apple.private.security.disk-device-access</key>
+	<true/>
+	<key>com.apple.private.vfs.snapshot</key>
+	<true/>
+	<key>com.apple.rootless.install.heritable</key>
+	<true/>
+	<key>com.apple.rootless.volume.Update</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AppleSMCClient</string>
+	</array>
+</dict>
+</plist>

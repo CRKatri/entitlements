@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.appattest.spi</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.internal.nfc.allow.backgrounded.session</key>
+	<true/>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.nfcd.hwmanager</key>
+	<true/>
+	<key>com.apple.nfcd.session.reader.internal</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueChipID</string>
+		<string>SerialNumber</string>
+	</array>
+	<key>com.apple.private.memorystatus</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceListenEvent</string>
+	</array>
+	<key>com.apple.runningboard.assertions.webkit</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.webkit</string>
+	</array>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.device.usb</key>
+	<true/>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.mobileactivationd</string>
+	</array>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.webkit.webauthn</string>
+		<string>lockdown-identities</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>com.apple.WebKit.WebAuthn</string>
+	</array>
+</dict>
+</plist>

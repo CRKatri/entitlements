@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.NanoTimeKitCompanion.CreateWatchFace</string>
+	<key>com.apple.companionappd.connect.allow</key>
+	<true/>
+	<key>com.apple.developer.auto-elect-plugin</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+	<key>com.apple.private.security.storage.NanoTimeKit.FaceSupport</key>
+	<true/>
+	<key>com.apple.private.security.storage.Photos</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/containers/Bundle/Application/</string>
+		<string>/private/var/mobile/Library/DeviceRegistry/</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/Caches/com.apple.NanoTimeKit/</string>
+		<string>/private/var/mobile/Library/NanoTimeKit/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
+	<string>/Media/PhotoData/</string>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.nanotimekit.collectionserver</string>
+		<string>com.apple.nanotimekit.complicationstoreserver</string>
+		<string>com.apple.appconduitd.device-connection</string>
+		<string>com.apple.nanotimekit.facesupportserver</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.mobiletimer</string>
+	</array>
+</dict>
+</plist>
