@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.private.corewifi.internal</key>
+	<true/>
+	<key>com.apple.private.tipsd.discoverability</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.tipsd</string>
+		<string>com.apple.internal.studylogd</string>
+		<string>com.apple.private.corewifi.internal-xpc</string>
+		<string>com.apple.SharingServices</string>
+		<string>com.apple.siri.morphunassetsupdaterd</string>
+		<string>com.apple.tvremotecore.xpc</string>
+		<string>com.apple.siri.activation.service</string>
+		<string>com.apple.siri.activation.button-event.listener</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.TVRemoteCore</string>
+	</array>
+	<key>com.apple.sharing.Client</key>
+	<true/>
+	<key>com.apple.siri.activation.assertion</key>
+	<true/>
+	<key>com.apple.siri.activation.button-event.listener</key>
+	<true/>
+	<key>com.apple.siri.activation.service</key>
+	<true/>
+	<key>com.apple.springboard.activateRemoteAlert</key>
+	<true/>
+	<key>com.apple.springboard.launchapplications</key>
+	<true/>
+	<key>com.apple.springboard.lockScreenContentAssertion</key>
+	<true/>
+	<key>com.apple.system.diagnostics.iokit-properties</key>
+	<true/>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+</dict>
+</plist>

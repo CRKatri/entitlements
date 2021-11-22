@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.DiagnosticExtensions.extension</key>
+	<true/>
+	<key>com.apple.DiagnosticsKit.diagnosticmanager</key>
+	<true/>
+	<key>com.apple.DiagnosticsKit.reportmanager</key>
+	<true/>
+	<key>com.apple.DiagnosticsSupport.CallStatsAccess</key>
+	<true/>
+	<key>com.apple.DiagnosticsSupport.HardwareButtonAccess</key>
+	<true/>
+	<key>com.apple.EnhancedLoggingState.client</key>
+	<true/>
+	<key>com.apple.developer.pluginkit.provide-environment</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/mobile/Library/Logs/AppleSupport/</string>
+		<string>/private/var/logs/AppleSupport/</string>
+		<string>/private/var/wireless/awdd/</string>
+		<string>/private/var/log/com.apple.xpc.launchd/</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.enhanced-logging-state</string>
+	</array>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.powerlog</string>
+	</array>
+</dict>
+</plist>

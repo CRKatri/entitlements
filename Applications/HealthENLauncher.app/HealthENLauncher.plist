@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>0000000000.com.apple.HealthENLauncher</string>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
+	<key>com.apple.developer.exposure-notification</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.appleaccount.app-hidden-from-icloud-settings</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.exposure-notification</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-test-verification</key>
+	<true/>
+	<key>com.apple.private.security.container-required</key>
+	<true/>
+	<key>com.apple.private.swc.system-app</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceExposureNotification</string>
+	</array>
+	<key>com.apple.private.tcc.manager</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<string>/private/var/containers/Bundle/Application/</string>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+</dict>
+</plist>

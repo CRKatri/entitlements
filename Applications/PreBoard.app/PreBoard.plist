@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allow-obliterate-device</key>
+	<true/>
+	<key>com.apple.CommCenter.Preferences-delete</key>
+	<true/>
+	<key>com.apple.QuartzCore.displayable-context</key>
+	<true/>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.authkit.writer.internal</key>
+	<true/>
+	<key>com.apple.backboard.client</key>
+	<true/>
+	<key>com.apple.keystore.device</key>
+	<true/>
+	<key>com.apple.keystore.stash.access</key>
+	<true/>
+	<key>com.apple.private.attentionawareness</key>
+	<true/>
+	<key>com.apple.private.bmk.allow</key>
+	<true/>
+	<key>com.apple.private.ids.registration-reset</key>
+	<true/>
+	<key>com.apple.private.kernel.darkboot</key>
+	<true/>
+	<key>com.apple.private.kernel.jetsam</key>
+	<true/>
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+	<key>com.apple.private.xpc.launchd.app-server</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>IOAVControllerConcreteUserClient</string>
+		<string>IOMobileFramebufferUserClient</string>
+		<string>IOSurfaceRootUserClient</string>
+		<string>RootDomainUserClient</string>
+		<string>AGXDeviceUserClient</string>
+		<string>AGXSharedUserClient</string>
+		<string>AGXCommandQueue</string>
+		<string>AGXDevice</string>
+	</array>
+	<key>com.apple.springboard-ui.client</key>
+	<true/>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+</dict>
+</plist>

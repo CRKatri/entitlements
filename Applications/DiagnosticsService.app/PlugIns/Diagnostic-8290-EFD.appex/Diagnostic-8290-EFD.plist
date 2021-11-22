@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.DiagnosticsKit.extension</key>
+	<true/>
+	<key>com.apple.avfaudio.devicetest</key>
+	<true/>
+	<key>com.apple.private.coremedia.extensions.audiorecording.allow</key>
+	<true/>
+	<key>com.apple.private.externalaccessory.showallaccessories</key>
+	<true/>
+	<key>com.apple.private.mediaexperience.startrecordinginthebackground.allow</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.audiotesting</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+		<string>kTCCServiceCamera</string>
+	</array>
+	<key>com.apple.security.device.bluetooth</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/Preferences/com.apple.Accessibility.plist</string>
+		<string>/private/var/Managed Preferences/mobile/com.apple.CoreMotion.plist</string>
+		<string>/private/var/tmp/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.mediasafetynet.exceptions</string>
+		<string>com.apple.avfaudio.devicetest.service</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.Diagnostics</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.coreaudio</string>
+		<string>com.apple.Accessibility</string>
+	</array>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AGXDeviceUserClient</string>
+	</array>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.DiagnosticsKit</string>
+	</array>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+</dict>
+</plist>

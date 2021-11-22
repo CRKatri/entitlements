@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.DiagnosticsKit.extension</key>
+	<true/>
+	<key>com.apple.accessibility.AXSBServer.assertions</key>
+	<true/>
+	<key>com.apple.hid.multitouch.user-access</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-filter</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleMultitouchDeviceUserClient</string>
+		<string>AppleMultitouchSPIUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.accessibility.AXSpringBoardServer</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.Diagnostics</string>
+	</array>
+	<key>com.apple.system.diagnostics.iokit-properties</key>
+	<true/>
+</dict>
+</plist>

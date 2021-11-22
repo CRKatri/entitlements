@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.tips</string>
+	<key>com.apple.backboardd.launchapplications</key>
+	<true/>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+		<string>RearFacingCameraSuperWideCameraCapability</string>
+	</array>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-dispatch.internal</key>
+	<true/>
+	<key>com.apple.private.mobileinstall.xpc-services-enabled</key>
+	<true/>
+	<key>com.apple.private.security.container-required</key>
+	<true/>
+	<key>com.apple.private.security.system-application</key>
+	<true/>
+	<key>com.apple.private.swc.system-app</key>
+	<true/>
+	<key>com.apple.private.tips.allow</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.ip.redirects</string>
+		<string>group.com.apple.tips</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.datamigrator</string>
+		<string>com.apple.identityservicesd.embedded.auth</string>
+		<string>com.apple.tipsd</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>com.apple.tipsd.tips-app-access</key>
+	<true/>
+</dict>
+</plist>

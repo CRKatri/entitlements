@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>1821501079</string>
+	<key>application-identifier</key>
+	<string>com.apple.Translate</string>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.cards.all-access</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.DictionaryServices.dictionary2</string>
+	</array>
+	<key>com.apple.private.calendar.allow-suggestions</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-dispatch.internal</key>
+	<true/>
+	<key>com.apple.private.mobileinstall.xpc-services-enabled</key>
+	<true/>
+	<key>com.apple.private.security.system-application</key>
+	<true/>
+	<key>com.apple.private.suggestions.internal</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+	</array>
+	<key>com.apple.private.tcc.allow.overridable</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceCalendar</string>
+	</array>
+	<key>com.apple.private.tipsd.discoverability</key>
+	<true/>
+	<key>com.apple.private.translation</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.private.translation</string>
+	</array>
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.tipsd</string>
+		<string>com.apple.translationd</string>
+		<string>com.apple.assistant.settings</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>fairplay-client</key>
+	<string>511712240</string>
+</dict>
+</plist>

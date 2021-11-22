@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.camera.iokit-user-access</key>
+	<true/>
+	<key>com.apple.frontboardservices.display-layout-monitor</key>
+	<true/>
+	<key>com.apple.messages.private.BypassShelfAccess</key>
+	<true/>
+	<key>com.apple.private.attribution.implicitly-assumed-identity</key>
+	<dict>
+		<key>type</key>
+		<string>bundleID</string>
+		<key>value</key>
+		<string>com.apple.MobileSMS</string>
+	</dict>
+	<key>com.apple.private.avatar.store</key>
+	<true/>
+	<key>com.apple.private.coremedia.pidinheritance.allow</key>
+	<true/>
+	<key>com.apple.private.dprivacyd.allow</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+		<string>kTCCServiceCamera</string>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceMediaLibrary</string>
+	</array>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/Library/Avatar</string>
+		<string>/Library/Caches/com.apple.AvatarUI</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.dprivacyd</string>
+		<string>com.apple.avatar.service</string>
+		<string>com.apple.avatar.support</string>
+		<string>com.apple.avatarsd</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.animoji</string>
+		<string>com.apple.AvatarUI.Staryu</string>
+	</array>
+</dict>
+</plist>

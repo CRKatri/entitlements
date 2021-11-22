@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.camera.iokit-user-access</key>
+	<true/>
+	<key>com.apple.frontboardservices.display-layout-monitor</key>
+	<true/>
+	<key>com.apple.idle-timer-services</key>
+	<true/>
+	<key>com.apple.messages.private.BypassShelfAccess</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>InverseDeviceID</string>
+	</array>
+	<key>com.apple.private.attribution.implicitly-assumed-identity</key>
+	<dict>
+		<key>type</key>
+		<string>bundleID</string>
+		<key>value</key>
+		<string>com.apple.MobileSMS</string>
+	</dict>
+	<key>com.apple.private.avatar.store</key>
+	<true/>
+	<key>com.apple.private.dprivacyd.allow</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.security.storage.Photos</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+		<string>kTCCServiceCamera</string>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceMediaLibrary</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.dprivacyd</string>
+	</array>
+</dict>
+</plist>

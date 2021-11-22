@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.measure</string>
+	<key>com.apple.ane.iokit-user-access</key>
+	<true/>
+	<key>com.apple.aned.private.allow</key>
+	<true/>
+	<key>com.apple.camera.iokit-user-access</key>
+	<true/>
+	<key>com.apple.coreaudio.register-internal-aus</key>
+	<true/>
+	<key>com.apple.pearl.iokit-user-access</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>JasperSerialNumber</string>
+	</array>
+	<key>com.apple.private.replay-kit</key>
+	<true/>
+	<key>com.apple.private.security.system-application</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceCamera</string>
+		<string>kTCCServicePhotos</string>
+	</array>
+	<key>com.apple.screenshotservices.ssuiservice.showscreenshotui</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/Measure/</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.measure</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

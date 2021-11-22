@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.shortcuts.ThumbnailExtension</string>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/preferences/com.apple.security.plist</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.SharingServices</string>
+		<string>com.apple.securityd</string>
+		<string>com.apple.trustd</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.siri.shortcuts</string>
+	</array>
+	<key>com.apple.sharing.Client</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.sharing.appleidauthentication</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CoreRoutine.LocationOfInterest</key>
+	<true/>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.homekit.private-spi-access</key>
+	<true/>
+	<key>com.apple.locationd.effective_bundle</key>
+	<true/>
+	<key>com.apple.private.corerecents</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.homekit.allow-secure-access</key>
+	<true/>
+	<key>com.apple.private.homekit.cameraclips</key>
+	<true/>
+	<key>com.apple.private.homekit.person-manager</key>
+	<true/>
+	<key>com.apple.private.persona.read</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceWillow</string>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceCamera</string>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceMicrophone</string>
+	</array>
+	<key>com.apple.videoconference.allow-conferencing</key>
+	<true/>
+</dict>
+</plist>
