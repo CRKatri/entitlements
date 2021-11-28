@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.enutil</string>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.developer.exposure-notification</key>
+	<true/>
+	<key>com.apple.developer.exposure-notification-logging</key>
+	<true/>
+	<key>com.apple.developer.exposure-notification-test-skip-file-verification</key>
+	<true/>
+	<key>com.apple.private.exposure-notification</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-bypass-key-release-prompt</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-device-identity</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-differential-privacy</key>
+	<true/>
+	<key>com.apple.private.exposure-notification-show-buddy</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceExposureNotification</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>apple</string>
+	</array>
+</dict>
+</plist>

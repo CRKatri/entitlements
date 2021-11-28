@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.mobile_storage</string>
+	<key>com.apple.private.RemoteServiceDiscovery.device-admin</key>
+	<true/>
+	<key>com.apple.private.mobile_storage.allowedSPI</key>
+	<array>
+		<string>QueryNonce</string>
+		<string>CopyDevices</string>
+		<string>MountDevice</string>
+		<string>UnmountDevice</string>
+		<string>SyncDevice</string>
+	</array>
+	<key>com.apple.private.mobile_storage.remote.allowedSPI</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.proactive.ppppttool</string>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceCalendar</string>
+		<string>kTCCServiceAddressBook</string>
+	</array>
+	<key>com.apple.private.tcc.allow.overridable</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceCalendar</string>
+	</array>
+	<key>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.NamedEntity.readWrite</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Topic.readOnly</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Topic.readWrite</key>
+	<true/>
+	<key>com.apple.security.personal-information.addressbook</key>
+	<true/>
+	<key>com.apple.security.personal-information.calendars</key>
+	<true/>
+</dict>
+</plist>

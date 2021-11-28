@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.nftool</string>
+	<key>com.apple.keystore.device.uuid</key>
+	<true/>
+	<key>com.apple.keystore.device.verify</key>
+	<true/>
+	<key>com.apple.nfcacd.hwmanager</key>
+	<true/>
+	<key>com.apple.nfcd.hwmanager</key>
+	<true/>
+	<key>com.apple.nfcd.lpm.factorytest</key>
+	<true/>
+	<key>com.apple.nfcd.mininv.write</key>
+	<true/>
+	<key>com.apple.nfcd.radio.powertoggle</key>
+	<true/>
+	<key>com.apple.nfcd.seshat</key>
+	<true/>
+	<key>com.apple.nfcd.session.reader.internal</key>
+	<true/>
+	<key>com.apple.private.applecredentialmanager.allow</key>
+	<true/>
+	<key>com.apple.private.applesse.allow</key>
+	<true/>
+	<key>com.apple.private.applesse.baa</key>
+	<true/>
+	<key>com.apple.private.bmk.allow</key>
+	<true/>
+	<key>com.apple.private.stockholm.allow</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.nfcacd.hwmanager</string>
+	</array>
+	<key>com.apple.seld.tsmmanager</key>
+	<true/>
+</dict>
+</plist>

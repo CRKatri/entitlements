@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.screentimetool</string>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.remotemanagement.encrypted</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled-access</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.set</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+	<dict>
+		<key>com.apple.remotemanagement.encrypted</key>
+		<string>DigitalHealth</string>
+	</dict>
+	<key>com.apple.private.cloudkit.systemService</key>
+	<true/>
+	<key>com.apple.private.contacts</key>
+	<true/>
+	<key>com.apple.private.dmd.emergency-mode</key>
+	<true/>
+	<key>com.apple.private.dmd.policy</key>
+	<true/>
+	<key>com.apple.private.screen-time</key>
+	<true/>
+	<key>com.apple.private.screen-time.persistence</key>
+	<true/>
+	<key>com.apple.private.screentime-reactor-tool</key>
+	<true/>
+	<key>com.apple.private.screentime-setup</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceLiverpool</string>
+	</array>
+	<key>com.apple.rootless.storage.remotemanagementd</key>
+	<true/>
+</dict>
+</plist>

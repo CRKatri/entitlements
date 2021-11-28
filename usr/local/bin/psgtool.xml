@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.proactive.psgtool</string>
+	<key>com.apple.private.psg.internal</key>
+	<true/>
+	<key>com.apple.private.security.storage.triald</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Contact</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.QuickType</key>
+	<true/>
+	<key>com.apple.proactive.input.suggester</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/mobile/Library/Trial/NamespaceDescriptors/</string>
+		<string>/private/var/mobile/Library/Trial/Treatments/</string>
+	</array>
+</dict>
+</plist>

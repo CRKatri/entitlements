@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.seserviced</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.seserviced</string>
+	<key>com.apple.keystore.device.uuid</key>
+	<true/>
+	<key>com.apple.keystore.device.verify</key>
+	<true/>
+	<key>com.apple.nfcd.hwmanager</key>
+	<true/>
+	<key>com.apple.private.applecredentialmanager.allow</key>
+	<true/>
+	<key>com.apple.private.security.no-container</key>
+	<true/>
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+	<key>com.apple.seserviced.kmlXpcService</key>
+	<true/>
+	<key>com.apple.seserviced.seendpoints</key>
+	<true/>
+	<key>com.apple.seserviced.seendpoints.certificateauthorities</key>
+	<true/>
+</dict>
+</plist>

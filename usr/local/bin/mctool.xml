@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.managedconfiguration.mctool</string>
+	<key>com.apple.keystore.device</key>
+	<true/>
+	<key>com.apple.managedconfiguration.mdmd-access</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled-access</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.configurationprofiles</key>
+	<array>
+		<string>CarrierInstallation</string>
+		<string>CustomUIInstallation</string>
+		<string>DEPInstallation</string>
+		<string>Inspection</string>
+		<string>PopInstallationQueue</string>
+		<string>Removal</string>
+		<string>SilentNonUIInstallation</string>
+		<string>UIInstallation</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled.get</key>
+	<array>
+		<string>MachineInfo</string>
+		<string>ManagedApplications</string>
+		<string>NetworkExtension</string>
+		<string>WiFiNetworks</string>
+		<string>MDMInfo</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled.migration</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.provisioningprofiles</key>
+	<array>
+		<string>Installation</string>
+		<string>PopInstallationQueue</string>
+		<string>Removal</string>
+		<string>Validation</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled.set</key>
+	<array>
+		<string>ActivationLock</string>
+		<string>ActivationRecord</string>
+		<string>Certificates</string>
+		<string>ClientRestrictions</string>
+		<string>CloudConfiguration</string>
+		<string>Passcode</string>
+		<string>Safari</string>
+		<string>UserSettings</string>
+		<string>PasscodeMetadata</string>
+	</array>
+	<key>com.apple.managedconfiguration.profiled.usercompliance</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.runningboard.process-state</key>
+	<true/>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+</dict>
+</plist>

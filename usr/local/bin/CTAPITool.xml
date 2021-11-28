@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CommCenter.Preferences-delete</key>
+	<true/>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+		<string>cellular-plan</string>
+		<string>identity</string>
+		<string>carrier-space</string>
+		<string>vinyl-standalone</string>
+		<string>public-cellular-plan</string>
+		<string>public-subscriber-info</string>
+		<string>carrier-settings</string>
+		<string>internal</string>
+	</array>
+	<key>com.apple.CoreTelephony.CellId.allow</key>
+	<true/>
+	<key>com.apple.CoreTelephony.RadioAccessTechnology.allow</key>
+	<true/>
+	<key>com.apple.CoreTelephony.SignalStrength.allow</key>
+	<true/>
+	<key>com.apple.backboardd.launchapplications</key>
+	<true/>
+	<key>com.apple.carrierspace.control.allow</key>
+	<true/>
+	<key>com.apple.coretelephony.SimAuthentication.allow</key>
+	<true/>
+	<key>com.apple.coretelephony.VinylTest.allow</key>
+	<true/>
+</dict>
+</plist>

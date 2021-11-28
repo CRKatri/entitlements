@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.CoreMotionLivability.daemon</string>
+	<key>com.apple.appconduitd.allowedSPI</key>
+	<array>
+		<string>availableAppsOnCompanion</string>
+	</array>
+	<key>com.apple.companionappd.connect.allow</key>
+	<true/>
+	<key>com.apple.locationd.activity</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled-access</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.location.motion.livabilityprogram</string>
+	</array>
+	<key>com.apple.private.ids.prefer-infrawifi</key>
+	<array>
+		<string>com.apple.private.alloy.location.motion.livabilityprogram</string>
+	</array>
+	<key>com.apple.private.ids.self-session</key>
+	<array>
+		<string>com.apple.private.alloy.location.motion.livabilityprogram</string>
+	</array>
+	<key>com.apple.private.kernel.override-cpumon</key>
+	<true/>
+	<key>com.apple.private.logging.diagnostic</key>
+	<true/>
+	<key>com.apple.private.security.storage.AppDataContainers</key>
+	<true/>
+	<key>com.apple.private.security.storage.Health</key>
+	<true/>
+	<key>com.apple.private.xpc.launchd.enable-disable-system-services</key>
+	<array>
+		<string>com.apple.internal.CoreMotionLivability.coremotionlivabilityd</string>
+	</array>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.powerlog</string>
+	</array>
+</dict>
+</plist>

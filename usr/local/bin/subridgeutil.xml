@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allow-softwareupdated</key>
+	<true/>
+	<key>com.apple.carousel.request-passcode</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.frontboard.shutdown</key>
+	<true/>
+	<key>com.apple.keystore.device</key>
+	<true/>
+	<key>com.apple.keystore.lockassertion</key>
+	<true/>
+	<key>com.apple.keystore.stash.access</key>
+	<true/>
+	<key>com.apple.keystore.stash.persist</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry</key>
+	<true/>
+	<key>com.apple.nanoregistry.termsacknowledgementregistry</key>
+	<true/>
+	<key>com.apple.private.CacheDelete</key>
+	<array>
+		<string>PURGE_ENTITLEMENT</string>
+		<string>CLIENT_ENTITLEMENT</string>
+		<string>PURGEABLE_ENTITLEMENT</string>
+	</array>
+	<key>com.apple.private.allow-subridge</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.SoftwareUpdate</string>
+		<string>com.apple.MobileAsset.WatchSoftwareUpdateDocumentation</string>
+	</array>
+	<key>com.apple.private.assets.change-daemon-config</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.otaupdate</string>
+		<string>com.apple.private.alloy.otaupdate.cloud</string>
+	</array>
+	<key>com.apple.private.ids.messaging.high-priority</key>
+	<array>
+		<string>com.apple.private.alloy.otaupdate</string>
+		<string>com.apple.private.alloy.otaupdate.cloud</string>
+	</array>
+	<key>com.apple.private.security.storage-exempt.heritable</key>
+	<true/>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.usernotifications.nanosubridged</string>
+	</array>
+</dict>
+</plist>

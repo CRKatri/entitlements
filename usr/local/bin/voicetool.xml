@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.Contacts.database-allow</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.VoiceServicesVocalizerVoice</string>
+		<string>com.apple.MobileAsset.VoiceServices.CustomVoice</string>
+		<string>com.apple.MobileAsset.VoiceServices.VoiceResources</string>
+		<string>com.apple.MobileAsset.VoiceServices.GryphonVoice</string>
+	</array>
+	<key>com.apple.voiced.can-dump-audio</key>
+	<true/>
+	<key>com.apple.voiceservices.tts</key>
+	<true/>
+	<key>com.apple.voiceservices.tts.customvoice</key>
+	<true/>
+</dict>
+</plist>

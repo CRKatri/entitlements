@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.duet.appPrediction.inspection</key>
+	<true/>
+	<key>com.apple.duet.expertcenter.consumer</key>
+	<true/>
+	<key>com.apple.duet.expertcenter.expert</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.DuetExpertCenterAsset</string>
+	</array>
+	<key>com.apple.private.kernel.override-cpumon</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceCalendar</string>
+		<string>kTCCServiceAddressBook</string>
+	</array>
+</dict>
+</plist>

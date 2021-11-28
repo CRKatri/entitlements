@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.remindtool</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.remindtool</string>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>Production</string>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.reminders</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.coreservices.cangetcurrentactivityinfo</key>
+	<true/>
+	<key>com.apple.private.remindd</key>
+	<array>
+		<string>store</string>
+	</array>
+	<key>com.apple.private.sysdiagnose</key>
+	<true/>
+	<key>com.apple.private.tcc.allow.overridable</key>
+	<array>
+		<string>kTCCServiceCalendar</string>
+		<string>kTCCServiceAddressBook</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.reminders</string>
+	</array>
+</dict>
+</plist>

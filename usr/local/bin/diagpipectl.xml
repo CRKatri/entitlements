@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.diagnosticpipeline.admin</key>
+	<true/>
+	<key>com.apple.diagnosticpipeline.request</key>
+	<true/>
+	<key>com.apple.private.logging.diagnostic</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/db/DiagnosticPipeline</string>
+		<string>/private/var/mobile/Library/DiagnosticPipeline/</string>
+	</array>
+</dict>
+</plist>

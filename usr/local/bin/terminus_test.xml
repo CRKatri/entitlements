@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.networkd_privileged</key>
+	<true/>
+	<key>com.apple.networkrelay.companionLink.isEnabled</key>
+	<true/>
+	<key>com.apple.networkrelay.deviceMonitor</key>
+	<true/>
+	<key>com.apple.networkrelay.devicePreferences</key>
+	<true/>
+	<key>com.apple.networkrelay.devices.read</key>
+	<true/>
+	<key>com.apple.networkrelay.devices.write</key>
+	<true/>
+	<key>com.apple.networkrelay.diagnostic</key>
+	<true/>
+	<key>com.apple.networkrelay.retryConnections</key>
+	<true/>
+	<key>com.apple.networkrelay.testLinkRecommendation</key>
+	<true/>
+	<key>com.apple.private.nehelper.privileged</key>
+	<true/>
+	<key>com.apple.private.network.interface-control</key>
+	<true/>
+	<key>com.apple.private.skywalk.register-kernel-pipe</key>
+	<true/>
+	<key>com.apple.private.skywalk.register-user-pipe</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<key>com.apple.terminusd.companionlink</key>
+	<true/>
+	<key>com.apple.terminusd.fixedInterfaceMode</key>
+	<true/>
+	<key>com.apple.terminusd.pairing</key>
+	<true/>
+	<key>com.apple.terminusd.ping</key>
+	<true/>
+	<key>com.apple.terminusd.testing</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>ichat</string>
+		<string>apple</string>
+		<string>lockdown-identities</string>
+		<string>com.apple.apsd</string>
+	</array>
+</dict>
+</plist>

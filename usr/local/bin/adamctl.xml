@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.audio.adam.xpc</key>
+	<true/>
+	<key>com.apple.coreaudio.adam.hae.notification</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.audio.adam.xpc</string>
+		<string>com.apple.coreaudio.adam.hae.notification</string>
+	</array>
+</dict>
+</plist>

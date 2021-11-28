@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.cfnetwork.StreamPerf</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath</key>
+	<true/>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.private.aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.private.cfnetwork.har-capture-amp</key>
+	<true/>
+	<key>com.apple.private.ids.remoteurlconnection</key>
+	<true/>
+	<key>com.apple.private.imcore.imremoteurlconnection</key>
+	<true/>
+	<key>com.apple.private.network.socket-delegate</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.allow-duet-preauthorization</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.impersonate</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.set-discretionary-override-value</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.set-max-watch-cell-transfer-size</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

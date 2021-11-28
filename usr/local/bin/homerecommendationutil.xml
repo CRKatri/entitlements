@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.developer.homekit.allow-setup-payload</key>
+	<true/>
+	<key>com.apple.homekit.private-internal-access</key>
+	<dict>
+		<key>OverrideLocationBundleIdentifier</key>
+		<string>com.apple.HomeRecommendationUtil</string>
+	</dict>
+	<key>com.apple.homekit.private-spi-access</key>
+	<true/>
+	<key>com.apple.private.homekit.cameraclips</key>
+	<true/>
+	<key>com.apple.private.homekit.connectivity-info</key>
+	<true/>
+	<key>com.apple.private.homekit.home-location</key>
+	<true/>
+	<key>com.apple.private.homekit.location</key>
+	<true/>
+	<key>com.apple.private.homekit.multi-user.setup</key>
+	<true/>
+	<key>com.apple.private.homekit.remote-login.private</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.willow</string>
+	</array>
+	<key>com.apple.private.ids.self-session</key>
+	<array>
+		<string>com.apple.private.alloy.willow</string>
+	</array>
+	<key>com.apple.private.ids.session</key>
+	<array>
+		<string>com.apple.private.alloy.willow</string>
+	</array>
+	<key>com.apple.private.ids.session-private</key>
+	<array>
+		<string>com.apple.private.alloy.willow</string>
+	</array>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMediaLibrary</string>
+		<string>kTCCServiceWillow</string>
+	</array>
+</dict>
+</plist>

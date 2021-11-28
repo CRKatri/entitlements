@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SBStarkCapable</key>
+	<true/>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+	</array>
+	<key>com.apple.QuartzCore.get-info</key>
+	<true/>
+	<key>com.apple.QuartzCore.global-capture</key>
+	<true/>
+	<key>com.apple.accessibility.api</key>
+	<true/>
+	<key>com.apple.accessibility.automation.client</key>
+	<true/>
+	<key>com.apple.appletv.pbs.allow-siri-actions</key>
+	<true/>
+	<key>com.apple.assistant.dictation.prerecorded</key>
+	<true/>
+	<key>com.apple.backboard.displaybrightness</key>
+	<true/>
+	<key>com.apple.backboardd.setDeviceOrientation</key>
+	<true/>
+	<key>com.apple.coretelephony.Identity.get</key>
+	<true/>
+	<key>com.apple.hid.manager.user-access-device</key>
+	<true/>
+	<key>com.apple.locationd.simulation</key>
+	<true/>
+	<key>com.apple.managedconfiguration.feature-setting.maxInactivity</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-dispatch</key>
+	<true/>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.hid.manager.client</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceAccessibility</string>
+		<string>kTCCServicePostEvent</string>
+	</array>
+	<key>com.apple.springboard.launchapplications</key>
+	<true/>
+</dict>
+</plist>

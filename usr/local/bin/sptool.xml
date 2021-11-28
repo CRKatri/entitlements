@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.icloud.sptool</string>
+	<key>com.apple.icloud.searchpartyd.access</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.accessorydiscovery</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.advertisementcache.access</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.advertisementcache.read</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.advertisementcache.write</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.beaconmanager</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.finderstatemanager.access</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.firmwareupdate.access</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.historicalLocation.access</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.ownersession</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.pairingmanager</key>
+	<true/>
+	<key>com.apple.icloud.searchpartyd.scheduler.access</key>
+	<true/>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.icloud.searchpartyd.sharedsettings</string>
+	</array>
+</dict>
+</plist>

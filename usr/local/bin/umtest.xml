@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.keybagd.UserManager.suspendquota</key>
+	<true/>
+	<key>com.apple.mkb.usersession.delete</key>
+	<true/>
+	<key>com.apple.mkb.usersession.info</key>
+	<true/>
+	<key>com.apple.mkb.usersession.load</key>
+	<true/>
+	<key>com.apple.mkb.usersession.loginwindow</key>
+	<true/>
+	<key>com.apple.mkb.usersession.switch</key>
+	<true/>
+	<key>com.apple.mkb.usersession.synctest</key>
+	<true/>
+	<key>com.apple.mobile.keybagd.UserManager.bubblepop</key>
+	<true/>
+	<key>com.apple.mobile.keybagd.UserManager.logout</key>
+	<true/>
+	<key>com.apple.mobile.keybagd.UserManager.logoutcritical</key>
+	<true/>
+	<key>com.apple.mobile.keybagd.UserManager.sync</key>
+	<true/>
+	<key>com.apple.private.persona-mgmt</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.background</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.create</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.delete</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.fetch</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.fetchbundle</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.login</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.logout</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.observer</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.setbundle</key>
+	<true/>
+</dict>
+</plist>

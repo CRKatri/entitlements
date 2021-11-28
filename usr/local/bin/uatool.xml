@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.PowerManagement.control</key>
+	<true/>
+	<key>com.apple.backboardd.lastUserEventTime</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.iokit.powerdxpc</key>
+	<true/>
+	<key>com.apple.private.associated-domains</key>
+	<true/>
+	<key>com.apple.private.canmodifyanyuseractivity</key>
+	<true/>
+	<key>com.apple.private.coreservices.canalwaysadvertise</key>
+	<true/>
+	<key>com.apple.private.coreservices.cangetcurrentactivityinfo</key>
+	<true/>
+	<key>com.apple.private.coreservices.canopenactivity</key>
+	<true/>
+	<key>com.apple.private.coreservices.lsuseractivityd.LSAlwaysEligible</key>
+	<true/>
+	<key>com.apple.private.coreservices.lsuseractivityd.LSAlwaysPick</key>
+	<true/>
+	<key>com.apple.private.coreservices.lsuseractivityd.admininterface</key>
+	<true/>
+	<key>com.apple.private.coreservices.lsuseractivityd.bestappsuggestion</key>
+	<true/>
+	<key>com.apple.private.coreservices.useractivityd.sharedpasteboard</key>
+	<true/>
+	<key>com.apple.private.librarian.container-proxy</key>
+	<true/>
+	<key>com.apple.private.notificationcenter-system</key>
+	<array>
+		<dict>
+			<key>identifier</key>
+			<string>com.apple.coreservices.continueactivity</string>
+		</dict>
+	</array>
+	<key>com.apple.private.useractivity.allowedtosetbundleidentifier</key>
+	<true/>
+	<key>com.apple.private.useractivity.sysdiagnose</key>
+	<true/>
+	<key>com.apple.system.powermanagement.useractivity</key>
+	<true/>
+</dict>
+</plist>

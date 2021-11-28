@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.frontboardservices.display-layout-monitor</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.announcemessage</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.audiotesting</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.emergency</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.notificationappex</key>
+	<true/>
+	<key>com.apple.private.mediasafetynet.exception.shazam</key>
+	<true/>
+</dict>
+</plist>

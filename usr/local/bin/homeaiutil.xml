@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.HomeAI.HomeAIDESExtension</string>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.homekit.private-spi-access</key>
+	<true/>
+	<key>com.apple.mediaanalysisd.client</key>
+	<true/>
+	<key>com.apple.private.DistributedEvaluation.RecordAccess-com.apple.HomeAIDESPlugin</key>
+	<true/>
+	<key>com.apple.private.homekit</key>
+	<true/>
+	<key>com.apple.private.homekit.cameraclips</key>
+	<true/>
+	<key>com.apple.private.homekit.messaging</key>
+	<true/>
+	<key>com.apple.private.homekit.person-manager</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceWillow</string>
+	</array>
+	<key>com.apple.private.tcc.manager</key>
+	<true/>
+	<key>com.apple.private.xpc.domain-extension</key>
+	<true/>
+	<key>com.apple.privatefederatedlearning.allowed</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<string>com.apple.siri-distributed-evaluation</string>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AppleJPEGDriverUserClient</string>
+		<string>IOSurfaceRootUserClient</string>
+		<string>IOSurfaceAcceleratorClient</string>
+		<string>IOGPUDeviceUserClient</string>
+	</array>
+</dict>
+</plist>

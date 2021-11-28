@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>143531244</string>
+	<key>application-identifier</key>
+	<string>com.apple.internal.appleAccountSetupTool</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.internal.appleAccountSetupTool</string>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.carousel.auth-alerts</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.ids.registration</key>
+	<true/>
+	<key>com.apple.private.keychain.sysbound</key>
+	<true/>
+	<key>com.apple.private.personas.propagate</key>
+	<true/>
+	<key>com.apple.private.security.allow-migration</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.fetch</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>appleaccount</string>
+	</array>
+</dict>
+</plist>

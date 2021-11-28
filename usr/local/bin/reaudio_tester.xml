@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.reaudio_tester</string>
+	<key>com.apple.developer.ubiquity-container-identifiers</key>
+	<string></string>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.avconference.avctester</string>
+		<string>com.apple.private.alloy.willow.stream</string>
+		<string>com.apple.private.alloy.copresence</string>
+	</array>
+	<key>com.apple.private.ids.messaging.urgent-priority</key>
+	<array>
+		<string>com.apple.private.alloy.avconference.avctester</string>
+		<string>com.apple.private.alloy.willow.stream</string>
+		<string>com.apple.private.alloy.copresence</string>
+	</array>
+	<key>com.apple.private.ids.session</key>
+	<array>
+		<string>com.apple.private.alloy.avconference.avctester</string>
+		<string>com.apple.private.alloy.willow.stream</string>
+		<string>com.apple.private.alloy.copresence</string>
+	</array>
+	<key>com.apple.private.ids.session-private</key>
+	<array>
+		<string>com.apple.private.alloy.avconference.avctester</string>
+		<string>com.apple.private.alloy.willow.stream</string>
+		<string>com.apple.private.alloy.copresence</string>
+	</array>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMicrophone</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CompanionLink</key>
+	<true/>
+	<key>com.apple.bannerkit.post</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.homekit.private-spi-access</key>
+	<true/>
+	<key>com.apple.nearbyinteraction.background</key>
+	<true/>
+	<key>com.apple.private.ids.session</key>
+	<array>
+		<string>com.apple.private.alloy.nearby</string>
+	</array>
+	<key>com.apple.private.mobiletimerd</key>
+	<true/>
+	<key>com.apple.private.nearbyinteraction.privileged</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceWillow</string>
+	</array>
+	<key>com.apple.private.tcc.manager</key>
+	<true/>
+	<key>com.apple.rapport.Client</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.MobileTimer.alarmserver</string>
+		<string>com.apple.commcenter.coretelephony.xpc</string>
+		<string>com.apple.MobileTimer.timerserver</string>
+		<string>com.apple.ProximityControl.server</string>
+		<string>com.apple.rapport</string>
+		<string>com.apple.SharingServices</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.airplay</string>
+		<string>com.apple.ProximityControl</string>
+	</array>
+	<key>com.apple.sharing.ProximityClient</key>
+	<true/>
+	<key>com.apple.telephonyutilities.callservicesd</key>
+	<array>
+		<string>access-call-capabilities</string>
+		<string>access-call-providers</string>
+		<string>access-calls</string>
+		<string>modify-calls</string>
+	</array>
+</dict>
+</plist>

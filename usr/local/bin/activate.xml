@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.mobileactivationd</string>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+		<string>identity</string>
+	</array>
+	<key>com.apple.icloud.FindMyDevice.FindMyDeviceIdentityXPCService.access</key>
+	<true/>
+	<key>com.apple.keystore.absinthe</key>
+	<true/>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.device-identifiers</key>
+	<true/>
+	<key>com.apple.mobileactivationd.network-security-disabled</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueChipID</string>
+	</array>
+	<key>com.apple.private.PurpleReverseProxy.allowed</key>
+	<true/>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.system-group-containers</key>
+	<array>
+		<string>systemgroup.com.apple.mobileactivationd</string>
+	</array>
+	<key>com.apple.timed</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>lockdown-identities</string>
+	</array>
+</dict>
+</plist>

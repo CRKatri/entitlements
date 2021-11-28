@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.PairingManager.HomeKit</key>
+	<true/>
+	<key>com.apple.PairingManager.Read</key>
+	<true/>
+	<key>com.apple.PairingManager.Write</key>
+	<true/>
+	<key>com.apple.QuartzCore.displayable-context</key>
+	<true/>
+	<key>com.apple.airplay.receiver.mediaremote.services</key>
+	<true/>
+	<key>com.apple.airplay.sender.xpc</key>
+	<true/>
+	<key>com.apple.avfoundation.allows-access-to-device-list</key>
+	<true/>
+	<key>com.apple.avfoundation.allows-set-output-device</key>
+	<true/>
+	<key>com.apple.coremedia.virtualdisplaycg.allow</key>
+	<true/>
+	<key>com.apple.coremedia.virtualdisplaysession</key>
+	<true/>
+	<key>com.apple.private.airplay.mangrove.client</key>
+	<true/>
+	<key>com.apple.private.carkit</key>
+	<true/>
+	<key>com.apple.private.carkit.app</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleAVE2UserClient</string>
+		<string>AGXDeviceUserClient</string>
+		<string>IOSurfaceAcceleratorClient</string>
+		<string>IOReportUserClient</string>
+		<string>IOSurfaceRootUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.PairingManager</string>
+		<string>com.apple.carkit.service</string>
+		<string>com.apple.carkit.monitoring.service</string>
+		<string>com.apple.carkit.app.service</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+	<key>com.apple.wifi.peer_traffic_registration</key>
+	<true/>
+	<key>com.apple.wlan.authentication</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.airplay</string>
+		<string>com.apple.airplay.pairing</string>
+	</array>
+</dict>
+</plist>

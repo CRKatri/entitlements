@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CoreRoutine.LocationOfInterest</key>
+	<true/>
+	<key>com.apple.avfoundation.allow-identifying-output-device-details</key>
+	<true/>
+	<key>com.apple.duet.appPrediction.inspection</key>
+	<true/>
+	<key>com.apple.duet.appPreference.prediction</key>
+	<true/>
+	<key>com.apple.duet.expertcenter.consumer</key>
+	<true/>
+	<key>com.apple.duet.expertcenter.feedback</key>
+	<true/>
+	<key>com.apple.private.corespotlight.search.internal</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.apppredictionsync</string>
+	</array>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.Siri.ActionPredictionNotifications</string>
+	</array>
+	<key>com.apple.proactive.ActionPrediction.predictions</key>
+	<true/>
+	<key>com.apple.proactive.AppPrediction.predictions</key>
+	<true/>
+	<key>com.apple.proactive.HomeScreenSuggestion.xpc</key>
+	<true/>
+	<key>com.apple.proactive.ProactiveSuggestionClientModel.xpc</key>
+	<true/>
+	<key>com.apple.proactive.eventtracker</key>
+	<true/>
+	<key>com.apple.proactive.hero.AppPrediction.predictions</key>
+	<true/>
+	<key>com.apple.proactive.infoSuggestion.xpc</key>
+	<true/>
+	<key>com.apple.rootless.storage.coreduet_knowledge_store</key>
+	<true/>
+	<key>com.apple.rootless.storage.proactivepredictions</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.duetexpertcenter</string>
+	</array>
+	<key>com.apple.springboard-ui.client</key>
+	<true/>
+	<key>com.apple.springboard.iconState</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.afu.userclientaccess</key>
+	<true/>
+	<key>com.apple.hid.manager.user-access-device</key>
+	<true/>
+	<key>com.apple.hid.manager.user-access-protected</key>
+	<true/>
+	<key>com.apple.hid.multitouch.user-access</key>
+	<true/>
+	<key>com.apple.hid.transport.user-access</key>
+	<true/>
+	<key>com.apple.private.network.intcoproc.restricted</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceListenEvent</string>
+	</array>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AppleMultitouchDeviceUserClient</string>
+		<string>AppleMultitouchSPIUserClient</string>
+		<string>IOHIDLibUserClient</string>
+		<string>IOHIDResourceDeviceUserClient</string>
+		<string>AppleHIDTransportDeviceUserClient</string>
+		<string>AppleHIDTransportInterfaceUserClient</string>
+		<string>AppleHIDTransportBootloaderUserClient</string>
+		<string>AIDLoggerUserClient</string>
+		<string>AppleFirmwareUpdateUserClient</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+</dict>
+</plist>

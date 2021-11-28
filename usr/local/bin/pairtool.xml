@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.nano.nanoregistry</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.applydiff</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.internal</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.pairunpairobliterate</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.unpairwithbrick</key>
+	<true/>
+	<key>com.apple.nanoregistry.BDE85C67-0FDD-4A95-A9B9-3CB5DD0C06A2</key>
+	<true/>
+	<key>com.apple.nanoregistry.termsacknowledgementregistry</key>
+	<true/>
+	<key>com.apple.nanoregistry.unlock.assertion.test.5FB2508F-9F17-42C2-90A4-03E7817791D9</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.nanoregistry.recoveryChannelKeys</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

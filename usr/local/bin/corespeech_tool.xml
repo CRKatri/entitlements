@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.assistant.multiuser.service</key>
+	<true/>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.corespeech.audioinjection.xpc</key>
+	<true/>
+	<key>com.apple.corespeech.corespeechd.xpc</key>
+	<true/>
+	<key>com.apple.corespeech.xpc</key>
+	<true/>
+	<key>com.apple.corespeechd.activation</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.VoiceTriggerAssets</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsIPad</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsWatch</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsMarsh</string>
+		<string>com.apple.MobileAsset.VoiceTriggerAssetsMac</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssets</string>
+		<string>com.apple.MobileAsset.SpeechEndpointAssetsWatch</string>
+		<string>com.apple.MobileAsset.SpeakerRecognitionAssets</string>
+	</array>
+	<key>com.apple.private.corespeech.audioinjection.xpc</key>
+	<true/>
+	<key>com.apple.private.corespeech.voicetrigger_service</key>
+	<true/>
+	<key>com.apple.private.corespeech.xpc</key>
+	<true/>
+	<key>com.apple.private.corespeech.xpc.remote</key>
+	<true/>
+	<key>com.apple.rootless.storage.CoreSpeech</key>
+	<true/>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.voicetrigger</string>
+	</array>
+	<key>com.apple.voicetrigger.voicetriggerservice</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.corespeech</string>
+	</array>
+</dict>
+</plist>

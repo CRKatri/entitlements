@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>notify-all</string>
+		<string>spi</string>
+		<string>bb-xpc</string>
+		<string>bb-xpc-restricted</string>
+	</array>
+	<key>com.apple.driver.AppleBasebandPCI.user-access</key>
+	<true/>
+	<key>com.apple.driver.AppleBasebandPCIControl.user-access</key>
+	<true/>
+	<key>com.apple.driver.AppleConvergedIPCICEBB.user-access</key>
+	<true/>
+	<key>com.apple.driver.AppleConvergedIPCICEBBControl.user-access</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>IOAppleConvergedIPCICEBBUserClient</string>
+		<string>IOAppleConvergedIPCICEBBControlUserClient</string>
+		<string>AppleBasebandPCIUserClient</string>
+		<string>AppleBasebandPCIControlUserClient</string>
+		<string>AppleBasebandUserClient</string>
+		<string>AppleBasebandPCITraceUserClient</string>
+	</array>
+</dict>
+</plist>

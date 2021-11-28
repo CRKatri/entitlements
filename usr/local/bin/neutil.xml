@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.SystemConfiguration.SCDynamicStore-write-access</key>
+	<true/>
+	<key>com.apple.coretelephony.Identity.get</key>
+	<true/>
+	<key>com.apple.coretelephony.SimAuthentication.allow</key>
+	<true/>
+	<key>com.apple.private.SecureNetworking.ipsec_db</key>
+	<true/>
+	<key>com.apple.private.SecureNetworking.ipsec_ike</key>
+	<true/>
+	<key>com.apple.private.necp.match</key>
+	<true/>
+	<key>com.apple.private.necp.policies</key>
+	<true/>
+	<key>com.apple.private.nehelper.privileged</key>
+	<true/>
+	<key>com.apple.private.networkextension.configuration</key>
+	<string>super</string>
+	<key>com.apple.private.skywalk.register-kernel-pipe</key>
+	<true/>
+	<key>com.apple.private.skywalk.register-user-pipe</key>
+	<true/>
+	<key>com.apple.private.system-keychain</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.identities</string>
+		<string>apple</string>
+		<string>com.apple.certificates</string>
+	</array>
+</dict>
+</plist>

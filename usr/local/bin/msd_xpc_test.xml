@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.msd_xpc_test</string>
+	<key>com.apple.keystore.access-keychain-keys</key>
+	<true/>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.bridge</key>
+	<true/>
+	<key>com.apple.mobileactivationd.device-identifiers</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.private.applecredentialmanager.allow</key>
+	<true/>
+	<key>com.apple.private.mobilestoredemo.enabledemo</key>
+	<array>
+		<string>Enroll</string>
+		<string>Manage</string>
+		<string>AccessPersistDemoVolume</string>
+		<string>KeychainAccess</string>
+		<string>SecurityPlugin</string>
+		<string>F200Control</string>
+	</array>
+	<key>com.apple.private.mobilestoredemo.helper</key>
+	<true/>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleCredentialManagerUserClient</string>
+		<string>AppleKeyStoreUserClient</string>
+	</array>
+	<key>com.apple.springboard.activateRemoteAlert</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.Maps.mapstool</string>
+	<key>com.apple.MapsSupport.MapsAnnouncementsShownToUser</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.Maps.mapstool</string>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.Maps.Sync</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.geoservices.setanydefault</key>
+	<true/>
+	<key>com.apple.locationd.simulation</key>
+	<true/>
+	<key>com.apple.maps.ipc-access</key>
+	<true/>
+	<key>com.apple.maps.model-access</key>
+	<true/>
+	<key>com.apple.navigation.spi</key>
+	<true/>
+	<key>com.apple.private.cloudkit.masquerade</key>
+	<true/>
+	<key>com.apple.private.cloudkit.serviceNameForContainerMap</key>
+	<dict>
+		<key>com.apple.Maps.Sync</key>
+		<string>MapsSync</string>
+		<key>com.apple.Maps.Sync.secure</key>
+		<string>com.apple.Maps.Sync.secure</string>
+	</dict>
+	<key>com.apple.private.cloudkit.setEnvironment</key>
+	<true/>
+	<key>com.apple.private.security.storage.AppDataContainers</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceLiverpool</string>
+		<string>kTCCServiceCalendar</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.Maps</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.Maps.IPC</string>
+		<string>com.apple.navigationService</string>
+		<string>com.apple.navigationListener</string>
+		<string>com.apple.navd</string>
+		<string>com.apple.navigationServer</string>
+		<string>com.apple.Maps.MapsSync.store</string>
+	</array>
+</dict>
+</plist>

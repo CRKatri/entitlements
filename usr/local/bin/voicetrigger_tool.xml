@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.appleinternal.BorealisDataCollector</string>
+	<key>com.apple.assistant.settings</key>
+	<true/>
+	<key>com.apple.coreaudio.allow-speex-codec</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.VoiceTriggerAssets</string>
+	</array>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceAddressBook</string>
+		<string>kTCCServiceMicrophone</string>
+	</array>
+	<key>com.apple.voicetrigger.voicetriggerservice</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.borealiscollector</string>
+	</array>
+</dict>
+</plist>
